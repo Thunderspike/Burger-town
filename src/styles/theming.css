@@ -1,0 +1,36 @@
+.theme--light {
+  --theme-bg: #fff;
+  --theme-text: #111;
+  --theme-text-secondary: rgba(0, 0, 0, 0.64);
+  --theme-selection: #ffe7e7;
+}
+.theme--dark {
+  --theme-bg: #292727;
+  --theme-text: #eee;
+  --theme-text-secondary: rgba(255, 255, 255, 0.74);
+  --theme-selection: #ffb7b7;
+}
+
+.theme--light,
+.theme--dark {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  font-family: var(--theme--font);
+}
+
+.text-secondary {
+  color: var(--theme-text-secondary);
+}
+.font-monospace {
+  font-family: var(--theme-font-monospace);
+}
+.font-display {
+  font-family: var(--theme--font-display);
+}
+
+::selection {
+  background: var(--theme-selection);
+}
+::-moz-selection {
+  background: var(--theme-selection);
+}

@@ -1,0 +1,14 @@
+.content {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+.content.-narrow {
+  max-width: 650px;
+}
+.content.-padded {
+  padding: 50px 0;
+}
+.content.-wide {
+  max-width: 1100px;
+}
